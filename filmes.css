@@ -32,6 +32,9 @@ a{
     padding: 20px;
 }
 
+a:hover{
+    color: rgb(40, 170, 187);
+}
 
 main{
     background-color: black;
