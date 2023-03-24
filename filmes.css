@@ -1,0 +1,140 @@
+body{
+    background-size: cover;
+    margin: 0 auto;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+header{
+    background-color: darkblue ;
+    width: 100%;
+    color: white;
+    text-transform: uppercase; 
+    padding-bottom: 20px;
+}
+
+h1{
+    padding: 10px;
+    margin: 0%;
+}
+
+nav{
+    border: 1px solid white;
+    border-radius: 30px;
+    width: 500px;
+    margin: auto;
+    padding: 10px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+}
+
+
+main{
+    background-color: black;
+    color: white;
+    padding: 20px; 
+    min-height: 100vh;  
+}
+
+div > div{
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+img{
+    border: 2px solid darkblue;
+    border-radius: 10px;
+    width: 200px;
+    height: 300px;
+}
+
+
+button{
+    border: 2px solid darkblue;
+    border-radius: 10px;
+    background-color: blue;
+    padding: 10px;
+    width: 100px;
+    cursor: grab;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+button:hover{
+    background-color: rgb(17, 53, 170);
+}
+
+footer{
+    background-color: darkblue;
+    background-attachment: fixed;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+@media all and (max-width: 950px){
+    header{
+        background-color: rgb(83, 0, 0) ;
+        }
+
+        footer{
+            background-color: rgb(83, 0, 0);
+        }
+
+        a:hover{
+            color: red;
+        }
+
+        img{
+            border: 2px solid red;
+        }
+
+        button{
+            border: 2px solid rgb(83, 0, 0);
+            background-color: red;
+        }
+        button:hover{
+            background-color: rgba(224, 54, 54, 0.712);
+        }
+
+        div > div{
+            padding-left: 200px;
+            padding-right: 200px;
+        }      
+}
+
+
+@media all and (max-width: 700px){
+    header{
+        background-color: green ;
+        }
+
+        footer{
+            background-color: green;
+        }
+
+        a:hover{
+            color: lightgreen;
+        }
+
+        img{
+            border: 2px solid green;
+        }
+
+        button{
+            border: 2px solid darkgreen;
+            background-color: green;
+        }
+        button:hover{
+            background-color: rgb(138, 201, 29);
+        }
+
+        div > div{
+            padding-left: 100px;
+            padding-right: 100px;
+        } 
+}
